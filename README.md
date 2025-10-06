@@ -4,6 +4,8 @@
 
 Unificar fuentes oficiales de SEDAPAL para generar el dataset analítico `data/processed/microzonas_sedapal.csv`, capaz de priorizar microzonas con acceso deficiente al agua. El pipeline ETL (Extracción, Transformación y Carga: proceso que obtiene datos, los depura y los persiste) combina información de conexiones, proyectos y longitudes entre 2023 y 2025.
 
+## Disponible en https://inadequate-wrennie-itcorp-1a11a9c7.koyeb.app/ (endpoints se indican mas abajo)
+
 ## Características principales
 
 - Pipeline reproducible que limpia y enriquece datos de `data/raw/`.
