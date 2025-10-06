@@ -1,0 +1,4 @@
+gerencia_servicios,equipo_comercial,departamento,provincia,distrito,ubigeo,tarifa,conexiones_agua,conexiones_alcantarillado,fecha_corte,anio,mes
+Gerencia Norte,Equipo Alfa,Lima,Lima,SAN MIGUEL,150132,DOMESTICO,120,100,20241231,2024,12
+Gerencia Norte,Equipo Alfa,Lima,Lima,SAN MIGUEL,150132,COMERCIAL,30,20,20241231,,
+Gerencia Sur,Equipo Beta,Lima,Lima,ATE,150101,SOCIAL,80,70,20240131,2024,1

@@ -1,0 +1,3 @@
+https://www.datosabiertos.gob.pe/sites/default/files/DataSet-Conexiones-APO-ALC.csv
+https://www.datosabiertos.gob.pe/sites/default/files/Dataset-proyectos_3.csv
+https://www.datosabiertos.gob.pe/sites/default/files/DataSet-Longitud-de-Redes-APO-ALC.csv

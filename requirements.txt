@@ -1,0 +1,9 @@
+pandas>=2.2
+requests>=2.31
+python-dateutil>=2.9
+chardet>=5.2
+pytest>=8.0
+fastapi>=0.111
+uvicorn[standard]>=0.29
+pydantic-settings>=2.2
+httpx>=0.27

@@ -1,0 +1,5 @@
+gerencia_servicios,equipo_comercial,departamento,provincia,distrito,ubigeo,clase,red_primaria,red_secundaria,anio,mes
+Gerencia Norte,Equipo Alfa,Lima,Lima,SAN MIGUEL,150132,AGUA,250.5,120.0,2024,12
+Gerencia Norte,Equipo Alfa,Lima,Lima,SAN MIGUEL,150132,DESAGUE,180.0,140.0,2024,12
+Gerencia Sur,Equipo Beta,Lima,Lima,ATE,150101,AGUA,300.0,150.0,2024,1
+Gerencia Sur,Equipo Beta,Lima,Lima,ATE,150101,DESAGUE,210.0,,2024,1

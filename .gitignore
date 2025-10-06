@@ -1,0 +1,54 @@
+# Registros de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Configuración local de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Herramientas de pruebas y análisis
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+
+# Datos generados durante el ETL
+data/processed/
+tmp_*.csv
+tmp_*.parquet
+*.tmp
+*.bak
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
