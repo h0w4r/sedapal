@@ -27,18 +27,20 @@ def crear_aplicacion() -> FastAPI:
         },
     )
 
-    origenes: List[str] = []
+    origenes: List[str] = ["*"]
     if configuracion.origenes_permitidos:
-        origenes = [origen.strip() for origen in configuracion.origenes_permitidos.split(",") if origen.strip()]
+        origenes.extend(origen.strip() for origen in configuracion.origenes_permitidos.split(",") if origen.strip())
+        origenes = list(dict.fromkeys(origenes))
 
-    if origenes:
-        aplicacion.add_middleware(
-            CORSMiddleware,
-            allow_origins=origenes,
-            allow_credentials=True,
-            allow_methods=["*"],
-            allow_headers=["*"],
-        )
+    # Se agrega el middleware de CORS permitiendo cualquier dominio al incluir '*' en allow_origins.
+    # Se deshabilitan las credenciales porque con '*' Starlette/FastAPI no permiten allow_credentials=True.
+    aplicacion.add_middleware(
+        CORSMiddleware,
+        allow_origins=origenes,
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
     aplicacion.include_router(router_microzonas)
 
